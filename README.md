@@ -10,3 +10,23 @@ Daftar tugas / branch
 7. Tugas-finalProject
 Daftar perintah GiT
 …
+
+
+(dalam main)
+
+git branch Tugas-***;
+git checkout Tugas-***;
+touch Tugas-***.txt;
+git add Tugas-***.txt;
+git commit -m "Add Tugas-***.txt";
+
+(isi teks dalam file .txt)
+
+git add Tugas-***.txt;
+git commit -m "added text";
+git checkout main;
+git fetch origin main;
+git pull origin main;
+git merge Tugas-***;
+git add .;
+git push origin main;

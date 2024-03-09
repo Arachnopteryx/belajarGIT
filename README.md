@@ -14,19 +14,19 @@ Daftar perintah GiT
 
 (dalam main)
 
-git branch Tugas-***;
-git checkout Tugas-***;
-touch Tugas-***.txt;
-git add Tugas-***.txt;
-git commit -m "Add Tugas-***.txt";
+git branch Tugas-xxxx;
+git checkout Tugas-xxxx;
+touch Tugas-xxxx.txt;
+git add Tugas-xxxx.txt;
+git commit -m "Add Tugas-xxxx.txt";
 
 (isi teks dalam file .txt)
 
-git add Tugas-***.txt;
+git add Tugas-xxxx.txt;
 git commit -m "added text";
 git checkout main;
 git fetch origin main;
 git pull origin main;
-git merge Tugas-***;
+git merge Tugas-xxxx;
 git add .;
 git push origin main;
